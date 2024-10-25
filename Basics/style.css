@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+
+    justify-content: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+}
+h3{
+    white-space: wrap;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+h5{
+    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.text{
+    margin-top: 20px;
+}
+.head1{
+    font-style: italic;
+    padding: 20px 2px;
+    font-size: 24px;
+}
+.content{
+    font-style: italic;
+    font-size: 14px;
+    text-align: justify;
+}
+.block{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 230px;
+}
+.block1{
+    width: 50vw;
+    padding: 10px;
+}
+.block2{
+    width: 50vw;
+    padding: 10px;
+}
+table{
+    width: 300px;
+    border: 1px black solid;
+}
+th{
+    border: 1px black solid;
+    margin: 2px;
+
+}
+td{
+    border: 1px black solid;
+    margin: 2px;
+
+}
+caption{
+    border: 1px black solid;
+    margin: 2px;
+    justify-self:;
+
+}
+.loader{
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: solid 7px gray;
+    border-top: solid 5px black;
+    animation: rotate 1s infinite;
+}
+@keyframes rotate {
+    100%{
+        rotate: 360deg;
+    }
+    
+}
